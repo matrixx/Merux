@@ -113,9 +113,6 @@ void Mer::updateUniforms()
 
 void Mer::initializeGL()
 {
-#if QT_VERSION >= 0x040800
-    initializeGLFunctions();
-#endif
     QGLWidget::initializeGL();
     glViewport(0, 0, width(), height());
 

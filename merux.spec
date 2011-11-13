@@ -10,13 +10,13 @@
 Name:           merux
 Version:        0.0.1
 Release:        1
-License:        <insert license tag>
-Summary:        <insert summary tag>
-Url:            <insert url tag>
-Group:          <insert group tag>
+License:        GPLv2.0 and above
+Summary:        Mer bringup demo
 Source0:        %{name}-%{version}.tar.gz
 #BuildRequires:  pkgconfig(QtCore)
 BuildRequires:  libqt-devel
+BuildRequires: pkgconfig(QtOpenGL)
+BuildRequires: pkgconfig(QtFeedback)
 
 %description
 # Add here description of the package.
@@ -41,4 +41,4 @@ make install INSTALL_ROOT=%{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{_prefix}/*
+/opt/merux

@@ -14,14 +14,7 @@ class QGLShaderProgram;
 class QGLBuffer;
 class QMouseEvent;
 
-#if QT_VERSION >= 0x040800
-#include <QGLFunctions>
-#endif
-
 class Mer : public QGLWidget
-#if QT_VERSION >= 0x040800
-, public QGLFunctions
-#endif
 {
     Q_OBJECT
 public:
