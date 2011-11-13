@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>textures/texture1024.jpg</file>
+        <file>shaders/fragmentshader.glsl</file>
+        <file>shaders/vertexshader.glsl</file>
+        <file>qml/merux/main.qml</file>
+        <file>textures/texture_logo1024.jpg</file>
+    </qresource>
+</RCC>
